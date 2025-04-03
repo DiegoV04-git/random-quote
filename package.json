@@ -12,6 +12,7 @@
     "dev": "parcel serve index.html"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.14.4"
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4"
   }
 }
