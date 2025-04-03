@@ -9,7 +9,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "dev": "parcel serve index.html"
+    "dev": "parcel serve index.html",
+     "preview": "parcel serve dist/index.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.4",
