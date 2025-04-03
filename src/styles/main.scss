@@ -1,0 +1,60 @@
+$Background:#F8F8FF;
+$quote-color:#2C3E50;
+$accent:#3498D8;
+$text-color: #fff;
+$secondary-accent:#D32F2F;
+
+body{
+    background-color: $Background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quote-box{
+    background-color: $accent;
+    max-width: 600px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.2);
+    text-align: center;
+    border-radius: 18px;
+}
+
+#text{
+    color: $quote-color;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#author{
+    font-size: 1.1rem;
+}
+
+button{
+    background-color: rgb(203, 219, 249);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-right: 55px;
+
+    &:hover{
+        background-color: rgb(177, 202, 250);
+    }
+}
+
+#tweet-quote{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(203, 219, 248);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+
+    &:hover{
+        background-color: rgb(177, 202, 250);
+    }
+}
