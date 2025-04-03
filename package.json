@@ -5,15 +5,14 @@
   "react-dom": "^18.0.0",
   "react-redux": "^9.2.0",
   "sass": "^1.86.2"
-},
-
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "dev": "parcel serve index.html"
-  },
-  "devDependencies": {
+ },
+ "scripts": {
+  "start": "parcel index.html",
+  "build": "NODE_ENV=production parcel build index.html",
+  "dev": "parcel serve index.html"
+ },
+ "devDependencies": {
   "@parcel/transformer-sass": "^2.14.4",
   "parcel": "^2.14.4"
-}
+ }
 }
